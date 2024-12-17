@@ -1,6 +1,6 @@
 # Sprunki Megalovania
 
-![Sprunki Megalovania Logo](/logo.png)
+![Sprunki Megalovania Logo](/public/logo.png)
 
 ## Overview
 
@@ -15,7 +15,7 @@ Welcome to Sprunki Megalovania, an innovative iteration in the Sprunki series th
 - **Literary Inspiration**: Drawing inspiration from the "Stormlight Archive" series, where Spren-like entities influence the sonic landscape
 
 ### Character Ensemble
-![Character Showcase](/sprunki-megalovania.webp)
+![Character Showcase](/public/sprunki-megalovania.webp)
 
 #### Sound Specialists
 - **Sky**: Creates ethereal sound effects that float through space
