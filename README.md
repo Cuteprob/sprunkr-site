@@ -1,10 +1,10 @@
-# Sprunki Phase 4
+# Sprunki Megalovania
 
-![Sprunki Phase 4 Logo](assets/images/logo.png)
+![Sprunki Megalovania Logo](/logo.png)
 
 ## Overview
 
-Welcome to Sprunki Phase 4, an innovative iteration in the Sprunki series that focuses on creative sound design and interactive musical experiences. This version represents a significant evolution in how passive items interact with sound elements, creating a unique and engaging gameplay experience.
+Welcome to Sprunki Megalovania, an innovative iteration in the Sprunki series that focuses on creative sound design and interactive musical experiences. This version represents a significant evolution in how passive items interact with sound elements, creating a unique and engaging gameplay experience.
 
 ## Key Features
 
@@ -15,7 +15,7 @@ Welcome to Sprunki Phase 4, an innovative iteration in the Sprunki series that f
 - **Literary Inspiration**: Drawing inspiration from the "Stormlight Archive" series, where Spren-like entities influence the sonic landscape
 
 ### Character Ensemble
-![Character Showcase](assets/images/characters.png)
+![Character Showcase](/sprunki-megalovania.webp)
 
 #### Sound Specialists
 - **Sky**: Creates ethereal sound effects that float through space
@@ -40,7 +40,6 @@ Welcome to Sprunki Phase 4, an innovative iteration in the Sprunki series that f
 - **Simon**: Redesigned classic with enhanced sound effects
 
 ### Sound Design Innovation
-![Sound Design](assets/images/sound-design.png)
 
 - **Real-time Sound Mixing**: Dynamic sound environment that responds to player interaction
 - **Character-Specific Sound Signatures**: Each character contributes unique audio elements
@@ -91,7 +90,7 @@ Welcome to Sprunki Phase 4, an innovative iteration in the Sprunki series that f
 
 ## Getting Started
 
-Start your sound journey now at [www.sprunkiphase4.app](https://www.sprunkiphase4.app)
+Start your sound journey now at [www.sprunkimegalovania.org](https://www.sprunkimegalovania.org)
 
 ### Quick Start Guide
 1. Create your profile
@@ -113,10 +112,9 @@ Start your sound journey now at [www.sprunkiphase4.app](https://www.sprunkiphase
 ## Connect With Us
 
 ### Official Channels
-- **Website**: [www.sprunkiphase4.app](https://www.sprunkiphase4.app)
-- **Twitter**: [@SprunkiPhase4](https://twitter.com/SprunkiPhase4)
+- **Website**: [www.sprunkimegalovania.org](https://www.sprunkimegalovania.org)
 ---
 
- 2024 Sprunki Phase 4 Team. All rights reserved.
+ 2024 Sprunki Megalovania Team. All rights reserved.
 
-*Experience the next evolution of sound interaction - Play Sprunki Phase 4 today!*
+*Experience the next evolution of sound interaction - Play Sprunki Megalovania today!*
