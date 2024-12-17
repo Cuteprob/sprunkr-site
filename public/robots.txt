@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://sprunkimegalovania.org/sitemap.xml
+
+# Important pages
+Allow: /games
+Allow: /features
+Allow: /how-to-play
+Allow: /faq
+Allow: /privacy
+Allow: /terms
+
