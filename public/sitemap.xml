@@ -44,4 +44,40 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
+  <url>
+    <loc>https://sprunkimegalovania.org/sprunki-phase-0</loc>
+    <lastmod>2024-12-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sprunkimegalovania.org/sprunki-amongus-edition</loc>
+    <lastmod>2024-12-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sprunkimegalovania.org/corruptbox3-x-sprunki</loc>
+    <lastmod>2024-12-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sprunkimegalovania.org/corruptbox-sprunki</loc>
+    <lastmod>2024-12-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sprunkimegalovania.org/corruptbox2-but-sprunki</loc>
+    <lastmod>2024-12-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sprunkimegalovania.org/sprunki-survive</loc>
+    <lastmod>2024-12-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

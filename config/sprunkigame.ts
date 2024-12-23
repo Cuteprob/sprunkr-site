@@ -253,7 +253,7 @@ export const games: Game[] = [
     title: "Corruptbox Sprunki",
     createdAt: "2024-12-19",
     description: "Experience Corruptbox Sprunki, a groundbreaking horror music creation game that merges experimental gameplay with eerie soundscapes. In Corruptbox Sprunki, players explore a fractured digital realm where corrupted characters become instruments of haunting melodies. This unique synesthetic experience allows you to manipulate glitch aesthetics and generate atmospheric compositions in ways never seen before.\n\nCorruptbox Sprunki challenges traditional gaming mechanics by transforming digital anomalies into musical art. Create and share your dark musical masterpieces in this innovative horror-themed sound laboratory, where every corrupted element contributes to your sinister symphony.",
-    iframeUrl: "https://wowtbc.net/sprunkin/corruptbox-sprunki/index.html",
+    iframeUrl: "https://iframegame.com/embed/corruptbox-but-sprunki/index.html",
     image: "/games/corruptbox-sprunki.webp",
     rating: 4.9,
     categories: [
@@ -360,7 +360,7 @@ export const games: Game[] = [
     title: "Corruptbox2 but Sprunki",
     createdAt: "2024-12-20",
     description: "Corruptbox2 but Sprunki takes the horror music creation experience to new heights by merging military tactics with corrupted audio synthesis. In this innovative sequel, players command glitch-infested units across a surreal battlefield, where every tactical decision shapes the musical composition. The game transforms combat maneuvers into haunting melodies, creating a unique blend of strategy and experimental sound design.\n\nExperience Corruptbox2 but Sprunki's revolutionary sound engine that responds dynamically to your battlefield choices. Deploy corrupted units, orchestrate tactical formations, and witness how your military strategy evolves into an eerie symphony. Each session creates a distinct sonic landscape, making every playthrough a unique musical journey through this nightmarish digital realm.",
-    iframeUrl: "https://wowtbc.net/sprunkin/corruptbox2-but-sprunki/index.html",
+    iframeUrl: "https://iframegame.com/embed/corruptbox-2-but-sprunki/index.html",
     image: "/games/corruptbox2-but-sprunki.webp",
     rating: 4.8,
     categories: [
@@ -467,7 +467,7 @@ export const games: Game[] = [
     title: "Corruptbox3 x Sprunki",
     createdAt: "2024-12-21",
     description: "Experience the latest evolution of digital chaos in Corruptbox3 x Sprunki, where puzzle-solving meets experimental sound design in a glitch-filled universe. Navigate through corrupted environments while solving intricate puzzles that challenge both your logic and creativity. Each level presents unique challenges where distorted visuals and dynamic soundscapes work in perfect harmony.\n\nThis innovative installment pushes the boundaries of traditional rhythm games by incorporating avant-garde sound design and surreal storytelling. Create your own musical journey using quirky characters, each contributing distinct audio effects to the atmospheric symphony. Every puzzle solution and interaction shapes the soundscape, making each playthrough a unique artistic expression.",
-    iframeUrl: "https://games.sprunkimegalovania.org/game/corruptbox3-x-sprunki/index.html",
+    iframeUrl: "https://iframegame.com/embed/corruptbox3-x-sprunki/index.html",
     image: "/games/corruptbox3-x-sprunki.webp",
     rating: 4.9,
     categories: [
