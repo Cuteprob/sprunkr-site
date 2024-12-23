@@ -1,0 +1,124 @@
+/* 隐藏不需要的元素 */
+.gsc-header,
+.gsc-footer,
+.gsc-reactions,
+.gsc-reply,
+.gsc-upvote-button,
+.gsc-comment-box-markdown-hint,
+.gsc-comment-box-tabs,
+.gsc-social-reaction-summary-item,
+.gsc-reactions-menu,
+.gsc-reactions-count,
+.gsc-timeline-header,
+.gsc-loading,
+.gsc-reply-box {
+  display: none !important;
+}
+
+/* 主容器样式 */
+.gsc-comments {
+  border: none !important;
+  margin: 0 !important;
+}
+
+/* 输入框样式 */
+.gsc-comment-box {
+  border: none !important;
+  padding: 0 !important;
+  margin-bottom: 24px !important;
+}
+
+.gsc-comment-box textarea {
+  border: 1px solid #e5e7eb !important;
+  border-radius: 8px !important;
+  padding: 12px !important;
+  font-size: 14px !important;
+  background: white !important;
+  color: #374151 !important;
+}
+
+/* 评论列表样式 */
+.gsc-comment {
+  border: none !important;
+  padding: 16px 0 !important;
+  display: flex !important;
+  gap: 12px !important;
+  border-bottom: 1px solid #e5e7eb !important;
+}
+
+.gsc-comment:last-child {
+  border-bottom: none !important;
+}
+
+/* 头像样式 */
+.gsc-comment-author-avatar {
+  margin: 0 !important;
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.gsc-comment-author-avatar img {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50% !important;
+}
+
+/* 评论内容样式 */
+.gsc-comment-content {
+  flex: 1 !important;
+  padding: 0 !important;
+  background: none !important;
+}
+
+.gsc-comment-header {
+  padding: 0 !important;
+  margin-bottom: 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.gsc-comment-author {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: #111827 !important;
+}
+
+.gsc-comment-timestamp {
+  font-size: 12px !important;
+  color: #6b7280 !important;
+}
+
+.gsc-comment-text {
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+  color: #4b5563 !important;
+}
+
+/* 按钮样式 */
+.gsc-comment-box-buttons {
+  padding: 8px 0 !important;
+  margin: 0 !important;
+}
+
+.gsc-comment-box-buttons button {
+  border-radius: 9999px !important;
+  padding: 6px 16px !important;
+  font-size: 14px !important;
+  background: #6366f1 !important;
+  color: white !important;
+  border: none !important;
+}
+
+.gsc-comment-box-buttons button:hover {
+  opacity: 0.9 !important;
+}
+
+/* 移除所有分隔线和边框 */
+.gsc-timeline {
+  border: none !important;
+}
+
+.gsc-timeline > div:not(:last-child)::after {
+  display: none !important;
+} 

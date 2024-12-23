@@ -4,6 +4,7 @@ import Script from "next/script";
 import "./globals.css";
 import { Footer } from "@/components/footer";
 import { Navbar } from "@/components/navbar";
+import { Toaster } from "sonner";
 
 // 配置字体
 const spaceGrotesk = Space_Grotesk({ 
@@ -73,6 +74,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <Toaster />
       </body>
     </html>
   );

@@ -55,14 +55,9 @@ export const games: Game[] = [
     createdAt: "2024-01-01",
     description: "Sprunki Phase 0 is a fun and engaging music creation game that allows players to mix and match adorable Sprunki characters to create their own unique tunes. It combines simplicity with creativity, making music accessible to everyone.",
     iframeUrl: "https://iframegame.com/embed/sprunki-babies/index.html",
-    image: "/games/sprunki-phase-0.webp",
+    image: "/games/sprunki-survive.webp",
     rating: 4.8,
     categories: [
-      GameCategory.MUSIC,
-      GameCategory.FEATURED,
-      GameCategory.HOT,
-      GameCategory.SPRUNKIPHASE,
-      GameCategory.INCREDIBOX,
       GameCategory.SPRUNKI
     ],
     metadata: {
@@ -146,6 +141,541 @@ export const games: Game[] = [
       thumbnail: "/sprunki-phase.webp"
     }
   },
+  {
+    id: "sprunki-survive",
+    title: "Sprunki Survive",
+    createdAt: "2024-12-18",
+    description: "Experience Sprunki Survive, a unique survival-themed music creation game that transforms the familiar Sprunki universe into a tense, atmospheric journey. Create haunting melodies and rhythms as you navigate through a world where every beat tells a story of survival. Sprunki Survive combines innovative sound design with strategic gameplay, allowing you to craft soundscapes that reflect the struggle and triumph of survival.\n\nIn Sprunki Survive, each character and loop carries the weight of survival, creating an immersive experience where music becomes your tool for endurance. Play directly in your browser and discover how the power of sound can transform the survival experience.",
+    iframeUrl: "https://games.sprunkimegalovania.org/game/sprunki-survive/index.html",
+    image: "/games/sprunki-survive.webp",
+    rating: 4.9,
+    categories: [
+      GameCategory.SPRUNKI
+    ],
+    metadata: {
+      title: "Sprunki Survive - Survival Music Creation Game | Create Atmospheric Beats",
+      description: "Play Sprunki Survive and create intense survival-themed music! Experience unique sound design, strategic composition, and immersive gameplay in this innovative Sprunki mod.",
+      keywords: [
+        "sprunki survive",
+        "survival music game",
+        "sprunki mod",
+        "music creation",
+        "survival game"
+      ]
+    },
+    controls: {
+      fullscreenTip: "Click the fullscreen button for an immersive Sprunki Survive experience",
+      guide: {
+        movement: [
+          "Drag & Drop - Position survivors",
+          "Click - Toggle survival sounds",
+          "Space - Play/Pause composition",
+          "R - Reset survival track"
+        ],
+        actions: [
+          "M - Mute all sounds",
+          "F - Toggle fullscreen",
+          "S - Save survival mix",
+          "H - Show/Hide controls"
+        ]
+      }
+    },
+    features: [
+      "Survival-themed sound design",
+      "Strategic music composition",
+      "Atmospheric character roster",
+      "Unique survival mechanics",
+      "Real-time sound mixing",
+      "Immersive visual effects",
+      "Browser-based gameplay",
+      "Shareable compositions"
+    ],
+    faqs: [
+      {
+        question: "What makes Sprunki Survive different from other music games?",
+        answer: "Sprunki Survive introduces a unique survival theme to music creation, where each sound and character in the Sprunki universe has been reimagined to create tense, atmospheric compositions. The game combines strategic sound placement with survival elements, making it a distinctive experience in the music game genre.",
+        category: 'features'
+      },
+      {
+        question: "How do I create music in Sprunki Survive?",
+        answer: "In Sprunki Survive, you'll drag and drop characters onto the stage, each adding unique survival-themed sounds to your composition. Experiment with different combinations to create atmospheric tracks that tell your survival story through music.",
+        category: 'gameplay'
+      },
+      {
+        question: "Can I save my Sprunki Survive compositions?",
+        answer: "Yes! Sprunki Survive allows you to save your survival-themed compositions and share them with others. Your unique musical interpretations of survival can be preserved and shared with the community.",
+        category: 'technical'
+      },
+      {
+        question: "What are the special features in Sprunki Survive?",
+        answer: "Sprunki Survive features a dark, atmospheric sound palette, survival-themed character designs, and unique gameplay mechanics that reflect the survival theme. Each element has been carefully crafted to enhance the survival experience through music.",
+        category: 'features'
+      },
+      {
+        question: "Is Sprunki Survive suitable for beginners?",
+        answer: "While Sprunki Survive offers deeper gameplay mechanics, it remains accessible to newcomers. The survival theme adds an extra layer of strategy to the familiar Sprunki music creation system, making it engaging for both beginners and experienced players.",
+        category: 'general'
+      },
+      {
+        question: "How does the survival theme affect gameplay in Sprunki Survive?",
+        answer: "In Sprunki Survive, the survival theme influences everything from sound design to visual presentation. Characters and sounds work together to create tense, atmospheric music that reflects the challenges of survival.",
+        category: 'gameplay'
+      },
+      {
+        question: "What types of music can I create in Sprunki Survive?",
+        answer: "Sprunki Survive specializes in creating atmospheric, survival-themed music. From tense ambient soundscapes to rhythmic survival beats, the game offers various ways to express your musical survival story.",
+        category: 'features'
+      },
+      {
+        question: "How often is Sprunki Survive updated?",
+        answer: "Sprunki Survive receives regular updates with new survival-themed characters, sounds, and features. Each update enhances the survival experience and expands your creative possibilities.",
+        category: 'technical'
+      },
+      {
+        question: "Can I play Sprunki Survive on mobile devices?",
+        answer: "Yes, Sprunki Survive is optimized for both desktop and mobile browsers, allowing you to create survival-themed music on any device with an internet connection.",
+        category: 'technical'
+      },
+      {
+        question: "What makes the sound design unique in Sprunki Survive?",
+        answer: "Sprunki Survive features carefully crafted sounds that combine musical elements with survival themes. Each character's audio has been designed to contribute to the tense, atmospheric nature of survival-themed composition.",
+        category: 'audio'
+      }
+    ],
+    video: {
+      youtubeId: "your_video_id",
+      title: "How to Play Sprunki Survive - Tutorial",
+      thumbnail: "/games/sprunki-survive.webp"
+    }
+  },
+  {
+    id: "corruptbox-sprunki",
+    title: "Corruptbox Sprunki",
+    createdAt: "2024-12-19",
+    description: "Experience Corruptbox Sprunki, a groundbreaking horror music creation game that merges experimental gameplay with eerie soundscapes. In Corruptbox Sprunki, players explore a fractured digital realm where corrupted characters become instruments of haunting melodies. This unique synesthetic experience allows you to manipulate glitch aesthetics and generate atmospheric compositions in ways never seen before.\n\nCorruptbox Sprunki challenges traditional gaming mechanics by transforming digital anomalies into musical art. Create and share your dark musical masterpieces in this innovative horror-themed sound laboratory, where every corrupted element contributes to your sinister symphony.",
+    iframeUrl: "https://wowtbc.net/sprunkin/corruptbox-sprunki/index.html",
+    image: "/games/corruptbox-sprunki.webp",
+    rating: 4.9,
+    categories: [
+      GameCategory.SPRUNKI
+    ],
+    metadata: {
+      title: "Corruptbox Sprunki - Horror Music Creation Game | Create Eerie Soundscapes",
+      description: "Play Corruptbox Sprunki and create haunting melodies in this unique horror music game. Experience glitch aesthetics and experimental gameplay while crafting atmospheric compositions.",
+      keywords: [
+        "corruptbox sprunki",
+        "horror music game",
+        "experimental gameplay",
+        "glitch music",
+        "corrupted characters"
+      ]
+    },
+    controls: {
+      fullscreenTip: "Click the fullscreen button to immerse yourself in Corruptbox Sprunki's eerie atmosphere",
+      guide: {
+        movement: [
+          "Drag & Drop - Position corrupted characters",
+          "Click - Toggle horror sounds",
+          "Space - Play/Pause composition",
+          "R - Reset current track"
+        ],
+        actions: [
+          "M - Mute all sounds",
+          "F - Toggle fullscreen",
+          "S - Save corrupted mix",
+          "H - Show/Hide controls"
+        ]
+      }
+    },
+    features: [
+      "Horror-themed music creation system",
+      "Dynamic glitch aesthetics",
+      "Corrupted character sound manipulation",
+      "Real-time visual distortion effects",
+      "Atmospheric sound generation",
+      "Interactive corrupted elements",
+      "Community sharing features",
+      "Synesthetic gameplay experience"
+    ],
+    faqs: [
+      {
+        question: "What makes Corruptbox Sprunki different from other music games?",
+        answer: "Corruptbox Sprunki uniquely combines horror elements with music creation, featuring corrupted characters and glitch aesthetics that generate haunting melodies. The game transforms digital anomalies into musical instruments, creating an unprecedented synesthetic experience.",
+        category: 'features'
+      },
+      {
+        question: "How do I create music in Corruptbox Sprunki?",
+        answer: "In Corruptbox Sprunki, you'll manipulate corrupted characters and glitch elements to generate eerie soundscapes. Each corrupted element contributes unique sounds to your composition, allowing you to craft atmospheric horror music through experimental gameplay.",
+        category: 'gameplay'
+      },
+      {
+        question: "Can I share my Corruptbox Sprunki creations?",
+        answer: "Yes! Corruptbox Sprunki features a robust community sharing system where you can share your horror music compositions with other players. The game encourages creative expression and community engagement through its sharing features.",
+        category: 'technical'
+      },
+      {
+        question: "What are the unique features in Corruptbox Sprunki?",
+        answer: "Corruptbox Sprunki offers innovative features like real-time visual corruption, dynamic audio synthesis, and interactive glitch generation. These elements work together to create an immersive horror music creation experience.",
+        category: 'features'
+      },
+      {
+        question: "Is Corruptbox Sprunki suitable for beginners?",
+        answer: "While Corruptbox Sprunki features experimental gameplay mechanics, it remains accessible to newcomers through intuitive controls and progressive complexity. The game allows players to explore horror music creation at their own pace.",
+        category: 'general'
+      },
+      {
+        question: "How does the corruption system affect gameplay in Corruptbox Sprunki?",
+        answer: "In Corruptbox Sprunki, the corruption system directly influences both visuals and audio. Each corrupted element you interact with affects the sound generation, creating unique horror soundscapes based on your manipulation of glitch effects.",
+        category: 'gameplay'
+      },
+      {
+        question: "What types of music can I create in Corruptbox Sprunki?",
+        answer: "Corruptbox Sprunki specializes in horror-themed atmospheric music. From eerie ambient soundscapes to intense glitch compositions, the game offers various ways to express your dark musical creativity.",
+        category: 'features'
+      },
+      {
+        question: "How often is Corruptbox Sprunki updated?",
+        answer: "Corruptbox Sprunki receives regular updates with new corrupted characters, horror sound elements, and experimental features. Each update enhances the horror music creation experience and expands creative possibilities.",
+        category: 'technical'
+      },
+      {
+        question: "Can I play Corruptbox Sprunki on mobile devices?",
+        answer: "Yes, Corruptbox Sprunki is optimized for both desktop and mobile browsers, allowing you to create horror music and experiment with corrupted elements on any device with an internet connection.",
+        category: 'technical'
+      },
+      {
+        question: "What makes the sound design unique in Corruptbox Sprunki?",
+        answer: "Corruptbox Sprunki features a sophisticated sound design system where visual corruptions directly influence audio output. Each corrupted character and glitch effect contributes to creating unique, horror-themed musical experiences.",
+        category: 'audio'
+      }
+    ],
+    video: {
+      youtubeId: "OCm0zYAC8vQ",
+      title: "Corruptbox Sprunki - Horror Music Creation Gameplay",
+      thumbnail: "/games/corruptbox-sprunki.webp"
+    }
+  },
+  {
+    id: "corruptbox2-but-sprunki",
+    title: "Corruptbox2 but Sprunki",
+    createdAt: "2024-12-20",
+    description: "Corruptbox2 but Sprunki takes the horror music creation experience to new heights by merging military tactics with corrupted audio synthesis. In this innovative sequel, players command glitch-infested units across a surreal battlefield, where every tactical decision shapes the musical composition. The game transforms combat maneuvers into haunting melodies, creating a unique blend of strategy and experimental sound design.\n\nExperience Corruptbox2 but Sprunki's revolutionary sound engine that responds dynamically to your battlefield choices. Deploy corrupted units, orchestrate tactical formations, and witness how your military strategy evolves into an eerie symphony. Each session creates a distinct sonic landscape, making every playthrough a unique musical journey through this nightmarish digital realm.",
+    iframeUrl: "https://wowtbc.net/sprunkin/corruptbox2-but-sprunki/index.html",
+    image: "/games/corruptbox2-but-sprunki.webp",
+    rating: 4.8,
+    categories: [
+      GameCategory.SPRUNKI
+    ],
+    metadata: {
+      title: "Corruptbox2 but Sprunki - Military Horror Music Strategy Game",
+      description: "Play Corruptbox2 but Sprunki and create haunting music through tactical combat. Command corrupted units and transform battlefield strategies into eerie soundscapes.",
+      keywords: [
+        "corruptbox2 but sprunki",
+        "tactical music game",
+        "horror strategy",
+        "corrupted audio",
+        "military music"
+      ]
+    },
+    controls: {
+      fullscreenTip: "Click the fullscreen button to expand your tactical view in Corruptbox2 but Sprunki",
+      guide: {
+        movement: [
+          "Drag & Drop - Deploy corrupted units",
+          "Click - Activate unit abilities",
+          "Space - Play/Pause battlefield audio",
+          "R - Reset tactical formation"
+        ],
+        actions: [
+          "M - Mute battlefield sounds",
+          "F - Toggle fullscreen",
+          "S - Save tactical composition",
+          "H - Show/Hide battle controls"
+        ]
+      }
+    },
+    features: [
+      "Military-themed sound generation",
+      "Tactical unit deployment system",
+      "Dynamic battlefield audio engine",
+      "Corrupted character abilities",
+      "Strategic formation mechanics",
+      "Real-time sound manipulation",
+      "Combat-based music creation",
+      "Unique battle compositions"
+    ],
+    faqs: [
+      {
+        question: "How does Corruptbox2 but Sprunki combine music and combat?",
+        answer: "In Corruptbox2 but Sprunki, every tactical decision influences the music. Unit placement, combat formations, and battlefield actions generate unique sounds that blend into a dynamic musical composition, creating a seamless fusion of strategy and audio creation.",
+        category: 'gameplay'
+      },
+      {
+        question: "What makes the tactical elements unique in Corruptbox2 but Sprunki?",
+        answer: "The game features a revolutionary sound engine that responds to your military tactics. Different unit formations and combat maneuvers produce distinct audio patterns, allowing you to craft music through strategic gameplay decisions.",
+        category: 'features'
+      },
+      {
+        question: "How do corrupted units work in the game?",
+        answer: "Each corrupted unit in Corruptbox2 but Sprunki has unique sound-generating abilities. When deployed on the battlefield, units interact with each other to create complex audio patterns, making unit selection and positioning crucial for your musical strategy.",
+        category: 'gameplay'
+      },
+      {
+        question: "Can I share my tactical compositions with others?",
+        answer: "Yes! Corruptbox2 but Sprunki includes a sharing system where you can save and share your battlefield compositions. Other players can experience your tactical arrangements and the unique soundscapes they create.",
+        category: 'technical'
+      },
+      {
+        question: "Is previous experience with Corruptbox required?",
+        answer: "No, Corruptbox2 but Sprunki is designed to be accessible to new players while offering depth for veterans. The game includes tutorials that introduce both tactical and musical elements gradually.",
+        category: 'general'
+      },
+      {
+        question: "How does the battlefield environment affect the music?",
+        answer: "The battlefield conditions directly influence the audio output. Different combat zones, unit interactions, and tactical situations create varying sound patterns, making each battle a unique musical experience.",
+        category: 'features'
+      },
+      {
+        question: "What types of music can I create through combat?",
+        answer: "Through tactical gameplay, you can create various styles of experimental music ranging from tense battle themes to atmospheric military soundscapes. The combination of unit types and formations offers endless musical possibilities.",
+        category: 'audio'
+      },
+      {
+        question: "How often are new units and sounds added?",
+        answer: "Corruptbox2 but Sprunki regularly receives updates with new corrupted units, tactical options, and sound elements. Each update expands your strategic and musical possibilities on the battlefield.",
+        category: 'technical'
+      },
+      {
+        question: "Can I play Corruptbox2 but Sprunki on mobile devices?",
+        answer: "Yes, the game is optimized for both desktop and mobile platforms, allowing you to command your corrupted forces and create tactical music on any device with an internet connection.",
+        category: 'technical'
+      },
+      {
+        question: "What makes each playthrough unique?",
+        answer: "Every session of Corruptbox2 but Sprunki creates a distinct experience through the combination of tactical choices, unit interactions, and dynamic sound generation. Your strategic decisions directly shape the musical outcome.",
+        category: 'gameplay'
+      }
+    ],
+    video: {
+      youtubeId: "OCm0zYAC8vQ",
+      title: "Corruptbox2 but Sprunki - Tactical Music Creation Gameplay",
+      thumbnail: "/games/corruptbox2-but-sprunki.webp"
+    }
+  },
+  {
+    id: "corruptbox3-x-sprunki",
+    title: "Corruptbox3 x Sprunki",
+    createdAt: "2024-12-21",
+    description: "Experience the latest evolution of digital chaos in Corruptbox3 x Sprunki, where puzzle-solving meets experimental sound design in a glitch-filled universe. Navigate through corrupted environments while solving intricate puzzles that challenge both your logic and creativity. Each level presents unique challenges where distorted visuals and dynamic soundscapes work in perfect harmony.\n\nThis innovative installment pushes the boundaries of traditional rhythm games by incorporating avant-garde sound design and surreal storytelling. Create your own musical journey using quirky characters, each contributing distinct audio effects to the atmospheric symphony. Every puzzle solution and interaction shapes the soundscape, making each playthrough a unique artistic expression.",
+    iframeUrl: "https://games.sprunkimegalovania.org/game/corruptbox3-x-sprunki/index.html",
+    image: "/games/corruptbox3-x-sprunki.webp",
+    rating: 4.9,
+    categories: [
+      GameCategory.SPRUNKI
+    ],
+    metadata: {
+      title: "Corruptbox3 x Sprunki - Puzzle Music Creation Game",
+      description: "Play Corruptbox3 x Sprunki and solve musical puzzles in a glitch-filled world. Experience dynamic sound design and create unique compositions through puzzle-solving.",
+      keywords: [
+        "corruptbox3 x sprunki",
+        "puzzle music game",
+        "glitch aesthetics",
+        "experimental sound",
+        "rhythm puzzles"
+      ]
+    },
+    controls: {
+      fullscreenTip: "Click the fullscreen button to fully immerse yourself in the corrupted world",
+      guide: {
+        movement: [
+          "WASD/Arrows - Navigate puzzles",
+          "Mouse - Interact with corrupted objects",
+          "Space - Activate sound elements",
+          "R - Reset current puzzle"
+        ],
+        actions: [
+          "E - Interact with environment",
+          "Q - Switch sound modes",
+          "Tab - View objectives",
+          "M - Mute audio"
+        ]
+      }
+    },
+    features: [
+      "Advanced puzzle mechanics",
+      "Dynamic sound generation",
+      "Glitch-based visuals",
+      "Experimental audio design",
+      "Character-specific sound effects",
+      "Interactive environments",
+      "Progressive difficulty",
+      "Community sharing system"
+    ],
+    faqs: [
+      {
+        question: "How do the puzzles work in Corruptbox3 x Sprunki?",
+        answer: "Each puzzle in Corruptbox3 x Sprunki combines visual elements with sound mechanics. Players must manipulate corrupted objects and characters to create specific sound patterns while solving logical challenges. The solutions often require creative thinking about both audio and visual elements.",
+        category: 'gameplay'
+      },
+      {
+        question: "What makes the sound design special in this version?",
+        answer: "The game features an advanced sound engine that responds to puzzle interactions. Every object manipulation and character interaction produces unique audio effects, creating an experimental soundscape that evolves as you progress through levels.",
+        category: 'audio'
+      },
+      {
+        question: "How does the glitch aesthetic affect gameplay?",
+        answer: "The glitch visuals aren't just cosmetic - they're integral to puzzle solutions. Distorted environments and characters provide clues and mechanics that players must understand and utilize to progress through the game.",
+        category: 'features'
+      },
+      {
+        question: "Can I create my own music while solving puzzles?",
+        answer: "Yes! As you solve puzzles, you're simultaneously creating unique musical compositions. The game encourages experimentation with different sound combinations, allowing you to craft your own soundtrack through puzzle-solving.",
+        category: 'gameplay'
+      },
+      {
+        question: "Is this game suitable for puzzle beginners?",
+        answer: "While Corruptbox3 x Sprunki features complex puzzles, it introduces mechanics gradually. Early levels help players understand basic concepts before introducing more challenging combinations of sound and logic puzzles.",
+        category: 'general'
+      },
+      {
+        question: "How does the community sharing system work?",
+        answer: "Players can share their puzzle solutions and musical creations with the community. The game includes weekly contests and events where players can showcase their most creative approaches to puzzle-solving and sound design.",
+        category: 'technical'
+      },
+      {
+        question: "What's new in this version compared to previous games?",
+        answer: "Corruptbox3 x Sprunki introduces more sophisticated puzzle mechanics, enhanced sound design, and a deeper integration between visual glitches and audio elements. The game also features improved character interactions and more complex environmental puzzles.",
+        category: 'features'
+      },
+      {
+        question: "How often are new puzzles and sounds added?",
+        answer: "The game receives regular updates with new puzzles, sound elements, and characters. These updates ensure fresh challenges and creative possibilities for both new and experienced players.",
+        category: 'technical'
+      },
+      {
+        question: "Can I play on mobile devices?",
+        answer: "Yes, Corruptbox3 x Sprunki is optimized for both desktop and mobile platforms. The puzzle and sound mechanics are adapted to work smoothly on touchscreen devices.",
+        category: 'technical'
+      },
+      {
+        question: "How does the difficulty progression work?",
+        answer: "The game features a carefully designed difficulty curve. Early puzzles focus on basic sound and logic mechanics, gradually introducing more complex elements that combine multiple concepts as you progress.",
+        category: 'gameplay'
+      }
+    ],
+    video: {
+      youtubeId: "OCm0zYAC8vQ",
+      title: "Corruptbox3 x Sprunki - Puzzle Music Creation Gameplay",
+      thumbnail: "/games/corruptbox3-x-sprunki.webp"
+    }
+  },
+  {
+    id: "sprunki-amongus-edition",
+    title: "Sprunki Among Us Edition",
+    createdAt: "2024-11-21",
+    description: "Experience a unique musical crossover in Sprunki Among Us Edition, where rhythm meets mystery. This innovative mod transforms the familiar Sprunki music creation system with the beloved Among Us aesthetic, creating an engaging experience that combines musical creativity with space-themed charm.\n\nCreate captivating tunes using iconic crewmate characters, each bringing their own unique sounds and animations to your compositions. The game features an intuitive drag-and-drop interface that lets you mix tracks while enjoying the suspenseful atmosphere inspired by Among Us. Share your musical creations with friends and join a growing community of creative players.",
+    iframeUrl: "https://games.sprunkimegalovania.org/game/sprunki-amongus-edition/index.html",
+    image: "/games/sprunki-amongus-edition.webp",
+    rating: 4.8,
+    categories: [
+      GameCategory.SPRUNKI
+    ],
+    metadata: {
+      title: "Sprunki Among Us Edition - Space-Themed Music Creation Game",
+      description: "Play Sprunki Among Us Edition and create music with your favorite crewmate characters. Mix tracks, share compositions, and enjoy this unique musical crossover.",
+      keywords: [
+        "sprunki among us edition",
+        "music creation game",
+        "among us music",
+        "rhythm game",
+        "crewmate music maker"
+      ]
+    },
+    controls: {
+      fullscreenTip: "Click the fullscreen button to expand your musical space station",
+      guide: {
+        movement: [
+          "Drag & Drop - Position crewmates",
+          "Click - Toggle character sounds",
+          "Space - Play/Pause composition",
+          "R - Reset current track"
+        ],
+        actions: [
+          "M - Mute all sounds",
+          "F - Toggle fullscreen",
+          "S - Save composition",
+          "H - Show/Hide controls"
+        ]
+      }
+    },
+    features: [
+      "Among Us themed characters",
+      "Unique crewmate sounds",
+      "Space station atmosphere",
+      "Intuitive mixing interface",
+      "Character-specific animations",
+      "Community sharing system",
+      "Family-friendly gameplay",
+      "Regular content updates"
+    ],
+    faqs: [
+      {
+        question: "What makes Sprunki Among Us Edition special?",
+        answer: "This edition uniquely combines Sprunki's music creation system with Among Us aesthetics. Each crewmate character (Red, Blue, Yellow, etc.) has distinct sounds and animations, allowing you to create space-themed musical compositions with a familiar twist.",
+        category: 'features'
+      },
+      {
+        question: "How do I create music with crewmates?",
+        answer: "Simply drag and drop your favorite Among Us characters onto the stage. Each crewmate adds unique sounds to your composition, and you can arrange them in different combinations to create engaging musical patterns.",
+        category: 'gameplay'
+      },
+      {
+        question: "Can I share my crewmate compositions?",
+        answer: "Yes! The game includes a sharing feature that lets you save and share your musical creations with friends and the community. It's a great way to showcase your creative arrangements.",
+        category: 'technical'
+      },
+      {
+        question: "Is this game suitable for children?",
+        answer: "Absolutely! Sprunki Among Us Edition is designed to be family-friendly, making it perfect for players of all ages. It combines simple controls with creative music-making in a fun, engaging way.",
+        category: 'general'
+      },
+      {
+        question: "What kind of sounds can each crewmate make?",
+        answer: "Each crewmate character has their own unique set of sounds that fit the space theme. These range from rhythmic beats to melodic tones, all designed to work together harmoniously.",
+        category: 'audio'
+      },
+      {
+        question: "How does the game maintain the Among Us atmosphere?",
+        answer: "The game incorporates the iconic visual style of Among Us with space-themed interfaces and subtle sound effects that create an immersive experience while maintaining focus on music creation.",
+        category: 'features'
+      },
+      {
+        question: "Are there any system requirements?",
+        answer: "The game runs smoothly on most devices with Android 8.0 and above, and is optimized for browser-based play. No downloads are required, just an internet connection.",
+        category: 'technical'
+      },
+      {
+        question: "How often is new content added?",
+        answer: "The game receives regular updates with new characters, sounds, and features. All content is freely accessible, with no in-game purchases required.",
+        category: 'technical'
+      },
+      {
+        question: "Can I play with friends?",
+        answer: "While the music creation is single-player, you can share your compositions with friends and the community, making it a social experience through music sharing.",
+        category: 'gameplay'
+      },
+      {
+        question: "What languages are supported?",
+        answer: "Currently, Sprunki Among Us Edition is available in English, with plans for future language expansions to make it accessible to more players worldwide.",
+        category: 'technical'
+      }
+    ],
+    video: {
+      youtubeId: "OCm0zYAC8vQ",
+      title: "Sprunki Among Us Edition - Musical Crewmate Creation",
+      thumbnail: "/games/sprunki-amongus-edition.webp"
+    }
+  }
 ];
 
 // 辅助函数

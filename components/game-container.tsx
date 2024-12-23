@@ -39,7 +39,7 @@ export function GameContainer({ game }: GameContainerProps) {
           <div className="relative group">
             {/* 背景光效 */}
             <div className="absolute inset-0">
-              <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-primary/20 to-accent/20 blur-lg animate-pulse" />
+              <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-primary/60 to-accent/60 blur-lg animate-pulse" />
             </div>
             
             {/* 游戏图片 */}
@@ -84,17 +84,14 @@ export function GameContainer({ game }: GameContainerProps) {
         </div>
       ) : null}
 
-      <iframe 
-        ref={iframeRef}
-        src={game.iframeUrl}
-        title={game.title}
-        className="w-full h-full p-1 border-0 rounded-xl bg-background" 
-        allowFullScreen
-        loading="lazy"
-        sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
-        referrerPolicy="no-referrer"
-        onError={handleIframeError}
-      />
+<iframe 
+  ref={iframeRef}
+  src={game.iframeUrl}
+  className="iframe-loading w-full h-full"
+  frameBorder="0"
+  allowFullScreen={true}
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+/>
 
       <div className="flex flex-col sm:flex-row justify-between items-center gap-2 sm:gap-0 mt-2 sm:mt-4">
         <p className="text-xs sm:text-sm text-muted-foreground text-center sm:text-left">

@@ -1,0 +1,69 @@
+/* 主题变量 */
+main {
+  --color-prettylights-syntax-comment: #6e7781;
+  --color-prettylights-syntax-constant: #0550ae;
+  --color-prettylights-syntax-entity: #8250df;
+  --color-prettylights-syntax-storage-modifier-import: #24292f;
+  --color-prettylights-syntax-entity-tag: #116329;
+  --color-prettylights-syntax-keyword: #cf222e;
+  --color-prettylights-syntax-string: #0a3069;
+  --color-prettylights-syntax-variable: #953800;
+  --color-prettylights-syntax-string-regexp: #116329;
+  --color-prettylights-syntax-markup-deleted-text: #82071e;
+  --color-prettylights-syntax-markup-deleted-bg: #ffebe9;
+  --color-prettylights-syntax-markup-inserted-text: #116329;
+  --color-prettylights-syntax-markup-inserted-bg: #dafbe1;
+  --color-prettylights-syntax-constant-other-reference-link: #0a3069;
+  --color-fg-default: #24292f;
+  --color-fg-muted: #57606a;
+  --color-canvas-default: transparent;
+  --color-canvas-subtle: transparent;
+  --color-border-default: #d0d7de;
+  --color-border-muted: hsla(210,18%,87%,1);
+  --color-accent-fg: #0969da;
+  --color-accent-emphasis: #0969da;
+  --color-danger-fg: #cf222e;
+}
+
+/* 隐藏不需要的元素 */
+.gsc-header,
+.gsc-footer,
+.gsc-reactions-button,
+.gsc-timeline-header {
+  display: none !important;
+}
+
+/* 评论框样式 */
+.gsc-comment-box {
+  border: none !important;
+  background: transparent !important;
+}
+
+.gsc-comment-box-textarea {
+  background-color: var(--color-canvas-subtle) !important;
+  border-color: var(--color-border-default) !important;
+  border-radius: 8px !important;
+  color: var(--color-fg-default) !important;
+}
+
+/* 评论列表样式 */
+.gsc-comment {
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid var(--color-border-muted) !important;
+  padding: 16px 0 !important;
+}
+
+.gsc-comment:last-child {
+  border-bottom: none !important;
+}
+
+/* 按钮样式 */
+.gsc-comment-box-buttons button {
+  border-radius: 9999px !important;
+}
+
+.gsc-submit {
+  background-color: var(--color-accent-emphasis) !important;
+  color: white !important;
+} 
