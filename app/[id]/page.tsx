@@ -1,18 +1,12 @@
 import { Metadata } from "next"
-import { GameCategory, games } from "@/config/sprunkigame"
+import {  games } from "@/config/sprunkigame"
 import { GameContainer } from "@/components/game-container"
 import { GamesSidebar } from "@/components/games-sidebar"
-import { Rating } from "@/components/ui/rating"
 import { Breadcrumb } from "@/components/ui/breadcrumb"
 import { notFound } from "next/navigation"
 import Link from "next/link"
-import { GameVideo } from "@/components/game-video"
 import { GameDescription } from "@/components/game-description"
 import { Comments } from "@/components/comments"
-import { HowToPlay } from '@/components/how-to-play'
-import { Features } from '@/components/features'
-import { FAQ } from '@/components/faq'
-import { FallbackImage } from "@/components/ui/fallback-image"
 import { Icons } from "@/config/icons"
 
 interface GamePageProps {
@@ -50,7 +44,7 @@ export async function generateMetadata({ params }: GamePageProps): Promise<Metad
       images: [game.image],
     },
     alternates: {
-      canonical: `https://sprunkimegalovania.org/${params.id}`,
+      canonical: `https://sprunkr.site/${params.id}`,
     },
   }
 }
@@ -69,7 +63,7 @@ export default function GamePage({ params }: GamePageProps) {
         <div className="mb-6">
           <Breadcrumb 
             items={[
-              { label: "Play Sprunki Megalovania", href: "/" },
+              { label: "Play Sprunkr", href: "/" },
               { label: game.title, href: `/${game.id}` }
             ]} 
           />
@@ -189,7 +183,7 @@ export default function GamePage({ params }: GamePageProps) {
                       <iframe
                         className="w-full h-full"
                         src={`https://www.youtube.com/embed/${game.video?.youtubeId}?autoplay=0&rel=0&modestbranding=1`}
-                        title={game.video?.title || `How to play ${game.title}`}
+                        title={`How to play ${game.title}`}
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
                         loading="lazy"
@@ -198,7 +192,7 @@ export default function GamePage({ params }: GamePageProps) {
 
                     {/* Optional: Video Title */}
                     <div className="text-sm text-muted-foreground text-center">
-                      {game.video?.title || `How to play ${game.title}`}
+                      { `How to play ${game.title}`}
                     </div>
                   </div>
                 </div>

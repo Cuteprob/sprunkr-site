@@ -9,74 +9,86 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
 >
   <url>
-    <loc>https://sprunkimegalovania.org/</loc>
+    <loc>https://sprunkr.site/</loc>
     <lastmod>2024-12-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://sprunkimegalovania.org/faq</loc>
+    <loc>https://sprunkr.site/faq</loc>
     <lastmod>2024-12-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sprunkimegalovania.org/features</loc>
+    <loc>https://sprunkr.site/features</loc>
     <lastmod>2024-12-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sprunkimegalovania.org/how-to-play</loc>
+    <loc>https://sprunkr.site/how-to-play</loc>
     <lastmod>2024-12-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sprunkimegalovania.org/privacy</loc>
+    <loc>https://sprunkr.site/privacy</loc>
     <lastmod>2024-12-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://sprunkimegalovania.org/terms</loc>
+    <loc>https://sprunkr.site/terms</loc>
     <lastmod>2024-12-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://sprunkimegalovania.org/sprunki-phase-0</loc>
+    <loc>https://sprunkr.site/sprunki-phase-0</loc>
     <lastmod>2024-12-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sprunkimegalovania.org/sprunki-amongus-edition</loc>
+    <loc>https://sprunkr.site/sprunki-amongus-edition</loc>
     <lastmod>2024-12-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sprunkimegalovania.org/corruptbox3-x-sprunki</loc>
+    <loc>https://sprunkr.site/corruptbox3-x-sprunki</loc>
     <lastmod>2024-12-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sprunkimegalovania.org/corruptbox-sprunki</loc>
+    <loc>https://sprunkr.site/corruptbox-sprunki</loc>
     <lastmod>2024-12-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sprunkimegalovania.org/corruptbox2-but-sprunki</loc>
+    <loc>https://sprunkr.site/corruptbox2-but-sprunki</loc>
     <lastmod>2024-12-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sprunkimegalovania.org/sprunki-survive</loc>
+    <loc>https://sprunkr.site/sprunki-survive</loc>
     <lastmod>2024-12-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sprunkr.site/spunkr-4-oc</loc>
+    <lastmod>2024-1-4</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+   <url>
+    <loc>https://sprunkr.site/sprunki-sprunkr-2</loc>
+    <lastmod>2024-1-4</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

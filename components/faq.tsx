@@ -6,39 +6,44 @@ interface FAQItem {
 
 const faqs: FAQItem[] = [
   {
-    question: "What is Sprunki Megalovania?",
-    answer: "Sprunki Megalovania is the latest evolution in our music creation series, featuring innovative gameplay mechanics that blend character abilities with sound elements. It introduces unique sound environments and character-specific musical styles, creating an immersive experience that encourages creativity and musical exploration.",
+    question: "What is Sprunkr and how does it relate to Incredibox?",
+    answer: "Sprunkr is an innovative rhythm game that combines the intuitive music creation tools of Incredibox with unique gameplay mechanics. It features multiple versions including the original Sprunkr, Sprunkr 2.0, and Sprunkr 4 OC, each offering distinct musical experiences with character customization and creative sound mixing capabilities.",
     category: "General",
   },
   {
-    question: "What makes the sound design unique?",
-    answer: "Sprunki Megalovania features an exciting modular sound system that integrates the iconic 'Megalovania' soundtrack into a dynamic universe. Each character contributes unique musical elements - from intense percussion and driving bass lines to ethereal melodies - creating an interactive environment where players can craft fast-paced, energetic compositions through real-time mixing and arrangement.",
-    category: "General",
+    question: "What are the different versions of Sprunkr available?",
+    answer: "Sprunkr comes in several exciting versions: The original Sprunkr (featuring classic gameplay mechanics), Sprunkr 2.0 (with enhanced graphics and improved sound systems), and Sprunkr 4 OC (featuring 41 unique characters and hidden secrets). Each version offers its own unique features and musical possibilities.",
+    category: "Versions",
   },
   {
-    question: "How do I create music in Sprunki Megalovania?",
-    answer: "Music creation is intuitive and engaging. Experiment with different musical environments, mix character sounds in real-time, and discover interactive sound combinations. The game features a gradual learning curve that introduces complexity as you progress, making it accessible for both beginners and experienced creators.",
-    category: "General",
+    question: "How do I create music in Sprunkr?",
+    answer: "Creating music is intuitive and fun. Simply select characters from the roster, drag and drop them onto the stage to layer different beats, melodies, and effects. You can experiment with various combinations, adjust volumes, and create unique compositions. Each character brings their own distinct sound loops and animations to your mix.",
+    category: "Gameplay",
   },
   {
-    question: "What customization options are available?",
-    answer: "Players can personalize their experience through sound processing options, adjustable effect parameters, and flexible style adaptation. You can tailor characters to your preferences and create unique performances through various combinations of sounds and effects.",
-    category: "General",
+    question: "What makes Sprunki Sprunkr 2.0 different from the original version?",
+    answer: "Sprunki Sprunkr 2.0 introduces significant improvements including enhanced character designs, smoother animations, refined soundscapes, and improved gameplay mechanics. It features better graphics, more dynamic sound effects, and a more polished user interface while maintaining the core music creation experience that players love.",
+    category: "Versions",
   },
   {
-    question: "How does the progression system work?",
-    answer: "The game features a multi-phase learning curve that gradually introduces new complexities. As you progress, you'll unlock more advanced sound composition techniques, discover new character combinations, and develop your musical creativity through interactive exploration.",
-    category: "General",
+    question: "What special features are available in Sprunkr 4 OC?",
+    answer: "Sprunkr 4 OC expands the gameplay with 41 unique characters (including secret ones), new sound combinations, and special animations. It features the return of Mr. Fun Computer with a new performance style, hidden content to discover, and an extensive range of musical possibilities for creating unique tracks.",
+    category: "Features",
   },
   {
-    question: "Do I need to download anything to play Sprunki Megalovania?",
-    answer: "No, Sprunki Megalovania is a browser-based game that runs directly in your web browser. You don't need to download or install any additional software. Simply visit our website and start creating music immediately.",
-    category: "General",
+    question: "Can I share my Sprunkr creations with others?",
+    answer: "Yes! Sprunkr encourages creativity and community sharing. You can save your musical creations and share them with the community. This feature allows you to showcase your unique compositions and get inspired by other players' creations.",
+    category: "Community",
   },
   {
-    question: "Can I play Sprunki Megalovania on mobile?",
-    answer: "Yes, Sprunki Megalovania is fully optimized for mobile devices. The intuitive touch interface and responsive design ensure a smooth music creation experience whether you're on a smartphone or tablet.",
-    category: "General",
+    question: "Is there a horror mode in Sprunkr?",
+    answer: "Yes, Sprunkr features a special horror mode that combines rhythm gameplay with spine-tingling elements inspired by Five Nights at Freddy's. This mode, part of the Sprunki Retake universe, offers a unique fusion of music creation and horror atmosphere, creating an entirely new gaming experience.",
+    category: "Features",
+  },
+  {
+    question: "What makes Sprunkr's sound design unique?",
+    answer: "Sprunkr's sound design stands out through its diverse collection of loops, effects, and character-specific sounds. Each version of Sprunkr brings its own unique soundscape, from the classic beats of the original to the enhanced audio quality in Sprunki Sprunkr 2.0 and the extensive sound library in Sprunkr 4 OC.",
+    category: "Features",
   }
 ];
 
@@ -51,7 +56,7 @@ export function FAQ() {
           Frequently Asked Questions
         </h2>
         <p className="text-muted-foreground">
-          Find answers about Sprunki Megalovania's music creation, characters, and features
+          Find answers about Sprunki Sprunkr's music creation, characters, and features
         </p>
       </div>
 

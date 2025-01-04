@@ -19,15 +19,9 @@ export function Navbar() {
         {/* Desktop Navigation */}
         <div className="flex items-center justify-between h-full">
           <Link href="/" className="flex items-center space-x-4">
-            <Image 
-              src="/logo.png" 
-              alt="Sprunki Megalovania Logo" 
-              width={32}
-              height={32}
-              className="h-8 w-8 rounded-lg"
-            />
-            <span className="text-xl font-heading text-primary font-bold tracking-wide">
-              Sprunki Megalovania
+          
+            <span className="text-2xl font-heading font-bold tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 hover:animate-shake transition-all duration-300 transform hover:scale-110">
+              Sprunkr.site
             </span>
           </Link>
 

@@ -25,7 +25,7 @@ export function Comments() {
       'data-reactions-enabled': '0',
       'data-emit-metadata': '0',
       'data-input-position': 'top',
-      'data-theme': 'light',
+      'data-theme': 'dark',
       'data-lang': 'en',
       'data-loading': 'lazy',
       'crossorigin': 'anonymous',

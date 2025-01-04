@@ -8,70 +8,24 @@ interface GamesSidebarProps {
   limit?: number;
 }
 
-export function GamesSidebar({ currentGameId, gameCategories, limit = 15 }: GamesSidebarProps) {
+export function GamesSidebar({ currentGameId, gameCategories, limit = 12 }: GamesSidebarProps) {
   // 获取当前游戏
   const currentGame = games.find(g => g.id === currentGameId);
 
-  // 定义分类组
-  const mainCategories = [
-    GameCategory.SPRUNKIPHASE,
-  ];
-
-  const themeCategories = [
-    GameCategory.SPRUNKI,
-    GameCategory.HALLOWEEN,
-  ];
-  
-  // 获取当前游戏的各类分类
-  const currentGameMainCategories = gameCategories.filter(cat => mainCategories.includes(cat));
-  const currentGameThemeCategories = gameCategories.filter(cat => themeCategories.includes(cat));
-
-  // 获取 Sprunki Phase 游戏并排序
-  const sprunkiGames = games
-    .filter(game => game.id !== currentGameId)
-    .filter(game => game.id.startsWith('sprunki-phase-'))
+  // 直接按创建时间排序所有游戏
+  const sortedGames = games
+    .filter(game => game.id !== currentGameId) // 只过滤掉当前游戏
     .sort((a, b) => {
-      const versionA = parseInt(a.id.replace('sprunki-phase-', '')) || 0;
-      const versionB = parseInt(b.id.replace('sprunki-phase-', '')) || 0;
-      return versionA - versionB;
-    });
-
-  // 获取其他相关游戏
-  const otherGames = games
-    .filter(game => game.id !== currentGameId)
-    .filter(game => !game.id.startsWith('sprunki-phase-'))
-    .filter(game => {
-      // 计算主分类匹配数
-      const mainCategoryMatches = game.categories.filter(cat => 
-        currentGameMainCategories.includes(cat)
-      ).length;
-
-      // 计算主题分类匹配数
-      const themeCategoryMatches = game.categories.filter(cat => 
-        currentGameThemeCategories.includes(cat)
-      ).length;
-
-      return mainCategoryMatches > 0 || themeCategoryMatches > 0;
+      // 按创建时间降序排序（最新的在前面）
+      return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime();
     })
-    .sort((a, b) => b.rating - a.rating);
-
-  // 合并并限制数量
-  const similarGames = [...sprunkiGames, ...otherGames].slice(0, limit);
+    .slice(0, limit); // 限制数量
 
   return (
     <aside className="w-full space-y-6 md:px-4">
-      {/* 标题部分
-      <div className="text-center">
-        <div className="inline-block bg-card/80 backdrop-blur-sm px-6 py-3 rounded-2xl border border-border">
-          <h2 className="text-xl font-heading text-primary">
-            Similar Games to {currentGame?.title}
-          </h2>
-        </div>
-      </div> */}
-
       {/* 游戏列表 - 5列3行网格布局 */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-        {games.map((game) => (
+        {sortedGames.map((game) => (
           <Link 
             key={game.id}
             href={`/${game.id}`}

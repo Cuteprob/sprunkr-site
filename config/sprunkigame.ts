@@ -675,6 +675,187 @@ export const games: Game[] = [
       title: "Sprunki Among Us Edition - Musical Crewmate Creation",
       thumbnail: "/games/sprunki-amongus-edition.webp"
     }
+  },
+  {
+    id: "sprunki-sprunkr-2",
+    title: "Sprunki Sprunkr 2.0",
+    createdAt: "2025-01-03",
+    description: "Sprunki Sprunkr 2.0 represents the next evolution in music creation gaming, delivering an enhanced and reimagined experience of the original Sprunkr mod. This upgraded version features stunning visual improvements, smoother animations, and refined sound mechanics that elevate the music-making experience to new heights. With its modernized interface and expanded creative tools, Sprunkr 2.0 offers both newcomers and veterans an engaging platform for musical expression.\n\nThe game introduces a comprehensive suite of enhanced features, including redesigned characters with fluid animations, upgraded sound loops, and intuitive controls that make music creation more accessible and enjoyable than ever. Whether you're crafting beats, mixing melodies, or experimenting with new sound combinations, Sprunkr 2.0 provides the perfect platform for unleashing your musical creativity.",
+    image: "/sprunki-sprunkr-2.webp",
+    iframeUrl: "https://game.sprunkiretake.net/Incredibox-Sprunkr-2.html",
+    rating: 4.9,
+    categories: [
+      
+    ],
+    metadata: {
+      title: "Sprunki Sprunkr 2.0 - Enhanced Music Creation Game | Create Amazing Beats",
+      description: "Play Sprunki Sprunkr 2.0, the enhanced version of the popular music creation game. Experience improved graphics, smoother animations, and better sound quality while creating your own music.",
+      keywords: [
+        "sprunki sprunkr 2.0",
+        "music creation game",
+        "rhythm game",
+        "beat maker",
+        "music composition",
+        "interactive music",
+        "sound mixing game"
+      ]
+    },
+    controls: {
+      fullscreenTip: "Click the fullscreen button for the best music creation experience",
+      guide: {
+        movement: [
+          "Drag & Drop - Position characters",
+          "Click - Toggle sounds",
+          "Space - Play/Pause track",
+          "R - Reset composition"
+        ],
+        actions: [
+          "M - Mute all sounds",
+          "F - Toggle fullscreen",
+          "S - Save composition",
+          "H - Show/Hide controls"
+        ]
+      }
+    },
+    features: [
+      "Enhanced character designs",
+      "Improved animations",
+      "Refined sound quality",
+      "Intuitive mixing interface",
+      "Expanded sound library",
+      "Modern visual effects",
+      "Streamlined controls",
+      "Community sharing features"
+    ],
+    faqs: [
+      {
+        question: "What's new in Sprunki Sprunkr 2.0?",
+        answer: "Sprunki Sprunkr 2.0 introduces major improvements including enhanced graphics, smoother animations, refined soundscapes, and a more intuitive user interface. The game also features upgraded sound loops and improved mixing capabilities for a better music creation experience.",
+        category: "features"
+      },
+      {
+        question: "How does the music creation system work?",
+        answer: "The game uses a simple drag-and-drop interface where you can arrange characters on stage to create music. Each character provides unique sound loops and effects that can be combined to create complex musical compositions.",
+        category: "gameplay"
+      },
+      {
+        question: "Can I import my compositions from the original Sprunkr?",
+        answer: "Yes, Sprunki Sprunkr 2.0 supports importing compositions from the original version. Your creations will be automatically enhanced with the improved sound quality and visual effects.",
+        category: "technical"
+      },
+      {
+        question: "What makes the sound quality better in 2.0?",
+        answer: "Version 2.0 features upgraded audio processing, higher quality sound samples, and improved mixing algorithms. This results in clearer, more dynamic sound output and better overall audio quality.",
+        category: "audio"
+      },
+      {
+        question: "Is Sprunki Sprunkr 2.0 suitable for beginners?",
+        answer: "Absolutely! The game features an intuitive interface and helpful tutorials that make it easy for beginners to start creating music, while still offering depth for experienced users.",
+        category: "general"
+      },
+      {
+        question: "How can I share my musical creations?",
+        answer: "The game includes built-in sharing features that allow you to save and share your compositions with the Sprunki community. You can also export your tracks for use in other applications.",
+        category: "features"
+      }
+    ],
+    video: {
+      youtubeId: "I_m72UuBtVA",
+      title: "Sprunki Sprunkr 2.0 - Enhanced Music Creation Game | Create Amazing Beats",
+      thumbnail: "/sprunki-sprunkr-2.webp"
+    }
+  },
+  {
+    id: "spunkr-4-oc",
+    title: "Spunkr 4 OC",
+    createdAt: "2025-01-04",
+    description: "Spunkr 4 OC takes music creation to new heights with an incredible roster of 41 unique characters, including exciting hidden secrets waiting to be discovered. This fan-made masterpiece expands the Sprunki universe with innovative sounds, captivating animations, and fresh mechanics that will keep players engaged for hours. The game features the return of the beloved Mr. Fun Computer, now with a completely reimagined performance style that adds a fresh dimension to your musical creations.\n\nDive into a world where each character brings their own musical personality to life, creating endless possibilities for unique compositions. Whether you're discovering secret characters, experimenting with new sound combinations, or crafting the perfect mix, Spunkr 4 OC provides an expansive playground for musical creativity.",
+    image: "/sprunkr-4-oc.webp",
+    iframeUrl: "https://play.sprunkiretake.net/sprunkr-4-oc",
+    rating: 4.8,
+    categories: [
+    
+    ],
+    metadata: {
+      title: "Spunkr 4 OC - Ultimate Music Creation Game | 41 Unique Characters",
+      description: "Play Spunkr 4 OC and create music with 41 unique characters, including hidden secrets. Experience new sounds, animations, and the return of Mr. Fun Computer in this expanded fan-made masterpiece.",
+      keywords: [
+        
+      ]
+    },
+    controls: {
+      fullscreenTip: "Click the fullscreen button to explore all 41 characters in full view",
+      guide: {
+        movement: [
+          "Drag & Drop - Place characters",
+          "Click - Activate sounds",
+          "Space - Play/Pause mix",
+          "R - Reset track"
+        ],
+        actions: [
+          "M - Mute sounds",
+          "F - Fullscreen mode",
+          "S - Save creation",
+          "H - Help menu"
+        ],
+        special: [
+          "Double Click - Character specials",
+          "Shift + Click - Secret interactions"
+        ]
+      }
+    },
+    features: [
+      "41 unique characters",
+      "Hidden secret content",
+      "Mr. Fun Computer's return",
+      "Dynamic sound system",
+      "Special character interactions",
+      "Advanced mixing tools",
+      "Community features",
+      "Regular updates"
+    ],
+    faqs: [
+      {
+        question: "How many characters are available in Spunkr 4 OC?",
+        answer: "Spunkr 4 OC features an impressive roster of 41 unique characters, including several hidden ones that can be discovered through gameplay. Each character brings their own distinct sounds and animations to your compositions.",
+        category: "features"
+      },
+      {
+        question: "What's special about Mr. Fun Computer in this version?",
+        answer: "Mr. Fun Computer returns with a completely new performance style. While he may have forgotten his original singing voice, he brings fresh and exciting ways to contribute to your musical creations.",
+        category: "features"
+      },
+      {
+        question: "How do I unlock hidden characters?",
+        answer: "Hidden characters can be discovered through various means, including specific character combinations, special interactions, and exploring the game's features. Each discovery adds new possibilities to your musical arsenal.",
+        category: "gameplay"
+      },
+      {
+        question: "What types of music can I create?",
+        answer: "With 41 characters offering different sounds and effects, you can create a wide range of musical styles. From rhythmic beats to melodic compositions, the possibilities are virtually endless.",
+        category: "audio"
+      },
+      {
+        question: "How often is new content added?",
+        answer: "The game receives regular updates that introduce new features, sounds, and sometimes even new characters. The development team actively listens to community feedback for improvements.",
+        category: "technical"
+      },
+      {
+        question: "Can I share my creations with others?",
+        answer: "Yes! Spunkr 4 OC includes robust sharing features that let you save and share your musical creations with the community, allowing others to experience your unique compositions.",
+        category: "features"
+      },
+      {
+        question: "Is previous experience with Spunkr required?",
+        answer: "While previous experience can be helpful, Spunkr 4 OC is designed to be accessible to newcomers while offering depth for veterans. The game includes tutorials and guides to help you get started.",
+        category: "general"
+      }
+    ],
+    video: {
+      youtubeId: "eVVgEnKogy0",
+      title: "Sprunki Sprunkr 4 OC - Ultimate Music Creation Game | 41 Unique Characters",
+      thumbnail: "/sprunkr-4-oc.webp"
+    }
   }
 ];
 

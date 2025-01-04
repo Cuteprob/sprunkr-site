@@ -26,9 +26,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://sprunkimegalovania.org'),
+  metadataBase: new URL('https://sprunkr.site'),
   openGraph: {
-    siteName: 'Sprunki Megalovania',
+    siteName: 'Sprunkr',
     locale: 'en_US',
     type: 'website',
   },

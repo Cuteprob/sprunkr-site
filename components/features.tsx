@@ -9,53 +9,46 @@ interface Feature {
 
 const features: Feature[] = [
   {
-    title: "Sprunki Megalovania Musical Combat",
+    title: "Sprunki Sprunkr Horror Evolution",
     description: [
-      "Rhythmic Battles: Engage in combat synchronized to the iconic Megalovania soundtrack beats and rhythms.",
-      "Musical Companions: Summon melodic allies that enhance your combat abilities through Sprunki Megalovania's signature sound.",
-      "Dynamic Sound Combat: Experience gameplay where every action contributes to the evolving Sprunki Megalovania composition.",
-      "Adaptive Musical Challenges: Face increasingly complex patterns that blend combat and musical elements.",
-      "Harmonic Combat Styles: Switch between different musical approaches to create your unique battle rhythm."
+      "Transform your musical experience with Sprunkr's bone-chilling horror mode, featuring dark atmospheres and spine-tingling soundscapes",
+      "Master Sprunkr's unique blend of rhythm-based gameplay and horror elements, inspired by classic horror games",
+      "Unlock eerie sound combinations and haunting visual effects as you progress through the dark universe"
     ],
-    highlight: "Combat System", 
-    category: 'gameplay'
+    highlight: "Horror Mode",
+    category: "evolution"
   },
   {
-    title: "Sprunki Megalovania Character Ensemble",
+    title: "Dynamic Music Creation System",
     description: [
-      "Rhythmic Healers: Experience the soothing melodies of Sky and Mr. Tree, whose nature-inspired sounds provide healing support in Sprunki Megalovania's dynamic battles.",
-      "Beat Warriors: Master the high-energy combat rhythms of Clukr and Brud, delivering powerful offensive beats that sync with the iconic Sprunki Megalovania soundtrack.",
-      "Melody Mages: Channel the mystical sounds of Wenda and Vineria, whose elegant musical patterns create mesmerizing crowd control effects.",
-      "Tech Virtuosos: Harness the precise mechanical rhythms of Mr. Fun Computer and Oren to craft intricate musical combinations.",
-      "Diverse Specialists: Discover unique sound signatures from Gray, Raddy, Tunner and others that add depth to your Sprunki Megalovania compositions."
+      "Create mesmerizing musical compositions using Sprunkr's intuitive drag-and-drop interface",
+      "Blend multiple sound layers with Sprunkr's advanced mixing tools to craft your unique soundscape",
+      "Experience real-time sound manipulation as you experiment with Sprunkr's diverse audio elements",
+      "Watch your music come alive with the responsive character animations"
     ],
-    highlight: "Characters",
-    category: 'characters'
+    highlight: "Music Creation",
+    category: "gameplay"
   },
   {
-    title: "Immersive Sound Design & Musical Creation",
+    title: "Immersive Rhythm Integration",
     description: [
-      "Interactive Sound Creation: Sprunki Megalovania lets you craft unique musical experiences by combining distinct character sounds and rhythms.",
-      "Rich Sound Palette: From ethereal melodies to dynamic beats, each character brings their own musical personality to your compositions.",
-      "Real-time Music Mixing: Experience Sprunki Megalovania's innovative sound system that dynamically blends and evolves based on your creative choices.",
-      "Seamless Integration: Visual animations and sound effects work together to create an engaging audiovisual experience.",
-      "Progressive Sound Journey: Discover new musical elements and combinations as you explore deeper into Sprunki Megalovania's world."
+      "Synchronize with Sprunkr's dynamic beat system that adapts to your musical choices",
+      "Explore Sprunkr's vast library of original sounds and rhythmic patterns",
+      "Build complex musical arrangements through Sprunkr's innovative loop-based composition system"
     ],
-    highlight: "Sound Design",
-    category: 'technical'
+    highlight: "Rhythm System",
+    category: "technical"
   },
   {
-    title: "Advanced Game Mechanics",
+    title: "Interactive Character Ensemble",
     description: [
-      "Passive Item System: Your companion provides constant support and enables powerful transformations.",
-      "Randomized Triggers: Each playthrough features unique transformation conditions for varied gameplay.",
-      "Strategic Depth: Master the timing of transformations and defensive maneuvers.",
-      "Sound Integration: Maintain musical rhythm while engaging in intense combat sequences.",
-      "Progressive Challenge: Unlock new abilities and face increasingly complex enemy patterns."
+      "Choose from Sprunkr's diverse cast of characters, each with unique sound signatures",
+      "Combine different character abilities to create rich, layered musical experiences",
+      "Discover hidden character interactions and special sound combinations exclusive to Sprunki Sprunkr's horror mode"
     ],
-    highlight: "Game Systems",
-    category: 'technical'
-  },
+    highlight: "Unique Characters",
+    category: "characters"
+  }
 ];
 
 export function Features() {
@@ -64,10 +57,10 @@ export function Features() {
       {/* Header */}
       <div className="text-center mb-12">
         <h2 className="text-2xl font-heading text-primary mb-4">
-          Sprunki Megalovania Features
+          Sprunki Sprunkr Features
         </h2>
         <p className="text-muted-foreground">
-          Discover the latest innovations and improvements in Sprunki Megalovania
+          Discover the latest innovations and improvements
         </p>
       </div>
 

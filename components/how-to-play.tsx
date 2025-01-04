@@ -16,106 +16,66 @@ interface Step {
 const steps: Step[] = [
   {
     number: 1,
-    title: "Choose Your Sprunki Megalovania Character",
-    description: "Begin your Sprunki Megalovania journey by selecting characters that match the iconic rhythm and energy of the soundtrack. Each character represents a key sonic element like percussion, synth lines, and bass drops that contribute to creating intense musical compositions.",
+    title: "Choose Your Sprunki Sprunkr Character",
+    description: "Begin your journey by selecting characters that match the iconic rhythm and energy of the soundtrack. Each character represents a key sonic element like percussion, synth lines, and bass drops that contribute to creating intense musical compositions.",
     tips: [
-      "Explore different Sprunki Megalovania character roles",
-      "Preview each character's unique sound",
-      "Test character combinations for rhythm",
-      "Find characters that complement each other"
+      "Discover the unique abilities of each character",
+      "Listen to individual sound samples first",
+      "Mix and match characters to build beats",
+      "Select voices that work well together"
     ],
     area: {
       name: "Character Selection",
       hazards: [
-        "Percussion: Drive the Sprunki Megalovania beat",
+        "Percussion: Drive the Sprunki Sprunkr beat",
         "Synth Lines: Create melodic intensity", 
         "Bass: Add powerful energy",
         "Support: Balance the composition"
       ]
     },
-    image: "/features/step-1.png"
+    image: "/howtoplay/step-1.webp"
   },
   {
     number: 2,
-    title: "Create Your Sprunki Megalovania Music Loop",
-    description: "After selecting characters, arrange them strategically to create dynamic Sprunki Megalovania loops. Each sound element's position contributes to the iconic Sprunki Megalovania rhythm pattern, allowing you to craft your own unique musical interpretation.",
+    title: "Create Your Sprunki Sprunkr Music Loop",
+    description: "After selecting characters, arrange them strategically to create dynamic loops. Each sound element's position contributes to the iconic rhythm pattern, allowing you to craft your own unique musical interpretation.",
     tips: [
       "Experiment with loop arrangements",
       "Fine-tune sound timing",
-      "Build layered Sprunki Megalovania patterns",
+      "Build layered Sprunki Sprunkr patterns",
       "Create dynamic variations"
     ],
     area: {
       name: "Loop Creation",
       hazards: [
-        "Pattern Timing: Match the Sprunki Megalovania beat",
+        "Pattern Timing: Match the Sprunki Sprunkr beat",
         "Layer Balancing: Build intensity",
         "Sound Placement: Create flow",
         "Loop Dynamics: Add variation"
       ]
     },
-    image: "/features/step-2.png"
+    image: "/howtoplay/step-2.webp"
   },
   {
     number: 3,
-    title: "Perfect Your Sprunki Megalovania Mix",
-    description: "Explore the dynamic world of Sprunki Megalovania mixing by experimenting with different sound combinations. Layer fast-paced beats, bold melodies, and rich harmonies to capture the high-energy essence of the iconic Sprunki Megalovania soundtrack.",
+    title: "Experience the Sprunki Sprunkr Horror Mode",
+    description: "Unlock a bone-chilling twist in Sprunkr by clicking the black hat. This enthralling mode transforms your Sprunkr musical creation into an electrifying and eerie adventure, merging the beloved rhythm with spine-tingling elements. Please note: Before entering this mode, ensure you can handle intense horror elements.",
     tips: [
-      "Blend multiple sound layers",
-      "Experiment with Sprunki Megalovania rhythms",
-      "Balance melody and harmony",
-      "Create energetic variations"
+      "Drag the black hat to activate Sprunkr's dark side",
+      "Prepare for spine-chilling Sprunkr sounds",
+      "Experience the dark atmosphere",
+      "Create haunting Sprunkr melodies"
     ],
     area: {
-      name: "Mix Mastery",
+      name: "Sprunki Sprunkr Horror Experience",
       hazards: [
-        "Beat Layering: High-energy rhythm",
-        "Melody Integration: Bold sound design",
-        "Harmony Balance: Rich textures",
-        "Dynamic Control: Energy flow"
+        "Dark Transformation: Intense visual effects",
+        "Eerie Soundscape: Haunting Sprunkr atmosphere",
+        "Horror Elements: Spine-chilling moments",
+        "Thrilling Adventure: Mesmerizing Sprunkr twists"
       ]
     },
-    image: "/features/step-3.png"
-  },
-  {
-    number: 4,
-    title: "Tips for Success in Sprunki Megalovania",
-    description: "Take your Sprunki Megalovania creations to the next level by exploring advanced composition techniques. Learn to weave complex patterns and layer sounds to create rich, dynamic musical experiences in Sprunki Megalovania that inspire and energize.",
-    tips: [
-      "Start with simple foundations",
-      "Gradually add complexity",
-      "Experiment with combinations", 
-      "Draw inspiration from others"
-    ],
-    area: {
-      name: "Creative Expression",
-      hazards: [
-        "Pattern Building: Layer progressively",
-        "Sound Balance: Mix elements naturally",
-        "Flow Control: Maintain musical energy",
-        "Creative Freedom: Express your style"
-      ]
-    }
-  },
-  {
-    number: 5,
-    title: "Join the Sprunki Megalovania Community",
-    description: "Share your Sprunki Megalovania strategies and musical compositions with the Sprunki Megalovania community. Learn from other players, discover new techniques, and contribute to the evolving meta.",
-    tips: [
-      "Record your best combinations",
-      "Share successful strategies",
-      "Study community discoveries",
-      "Participate in challenges"
-    ],
-    area: {
-      name: "Community Engagement",
-      hazards: [
-        "Strategy Sharing: Help others grow",
-        "Technique Exchange: Learn new moves",
-        "Challenge Participation: Test skills",
-        "Community Events: Special rewards"
-      ]
-    }
+    image: "/howtoplay/step-3.webp"
   }
 ];
 
@@ -125,11 +85,11 @@ export function HowToPlay() {
       <div className="text-center space-y-4">
         <div className="inline-block bg-card/80 backdrop-blur-sm px-6 py-3 rounded-2xl border border-border">
           <h2 className="text-2xl font-heading text-primary">
-            Master Sprunki Megalovania Combat Music
+            Master Sprunki Sprunkr Music Gameplay
           </h2>
         </div>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-          Learn how to create powerful musical combinations while mastering the art of combat in Sprunki Megalovania
+          Learn how to create powerful musical combinations while mastering the art of Sprunkr
         </p>
       </div>
 

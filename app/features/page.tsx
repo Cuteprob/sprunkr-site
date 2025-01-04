@@ -1,6 +1,5 @@
 import { Features } from "@/components/features";
 import { Breadcrumb } from "@/components/ui/breadcrumb";
-import { RelatedGames } from "@/components/related-games";
 
 export default function FeaturesPage() {
   return (
@@ -8,7 +7,7 @@ export default function FeaturesPage() {
       <main className="flex-1 container mx-auto px-4 py-12 max-w-7xl">
         <Breadcrumb 
           items={[
-            { label: "Play Sprunki Megalovania", href: "/" },
+            { label: "Play Sprunkr", href: "/" },
             { label: "Features", href: "/features" }
           ]} 
         />
@@ -22,9 +21,9 @@ export default function FeaturesPage() {
 }
 
 export const metadata = {
-  title: "Discover Sprunki Megalovania Features - Sprunki Megalovania",
-  description: "Discover Sprunki Megalovania's features and benefits. Learn about our game collection, instant play technology, and enjoy the best unblocked games online.",
+  title: "Discover Sprunkr Features - Sprunkr",
+  description: "Discover Sprunkr's features and benefits. Learn about our game collection, instant play technology, and enjoy the best unblocked games online.",
   alternates: {
-    canonical: "https://sprunkimegalovania.org/features",
+    canonical: "https://sprunkr.site/features",
   },
 }

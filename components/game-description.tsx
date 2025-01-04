@@ -12,6 +12,7 @@ interface GameDescriptionProps {
 }
 
 export function GameDescription({ game }: GameDescriptionProps) {
+  console.log(game.image)
   return (
     <section className="max-w-7xl mx-auto bg-card/80 backdrop-blur-sm rounded-2xl p-8 border border-border">
       {/* Header */}
@@ -31,9 +32,9 @@ export function GameDescription({ game }: GameDescriptionProps) {
               />
             </div>
             <div className="space-y-2">
-              <h1 className="text-3xl font-heading text-primary">
+              <h2 className="text-3xl font-heading text-primary">
                 {game.title}
-              </h1>
+              </h2>
               <Rating 
                 initialRating={game.rating} 
                 isReadOnly 
@@ -46,14 +47,14 @@ export function GameDescription({ game }: GameDescriptionProps) {
           {/* Right side with platforms and share */}
           <div className="flex flex-col gap-4">
             <div className="text-base">
-              <div className="text-muted-foreground">Platforms:</div>
+              <h3 className="text-muted-foreground">Platforms:</h3>
               <div className="flex gap-2 mt-1">
                 <span className="p-3 bg-card rounded-lg text-xl">🖥️</span>
                 <span className="p-3 bg-card rounded-lg text-xl">📱</span>
               </div>
             </div>
             <div className="text-base">
-              <div className="text-muted-foreground">Share on:</div>
+              <h3 className="text-muted-foreground">Share on:</h3>
               <div className="flex gap-2 mt-1">
                 <ShareButtons 
                   title={`Play ${game.title}`}
@@ -74,14 +75,14 @@ export function GameDescription({ game }: GameDescriptionProps) {
             className="pb-2 data-[state=active]:border-b-2 data-[state=active]:border-primary data-[state=active]:text-primary rounded-none border-0 bg-transparent"
           >
             {Icons.home}
-            Overview
+            <h3>Overview</h3>
           </TabsTrigger>
           <TabsTrigger 
             value="gameplays"
             className="pb-2 data-[state=active]:border-b-2 data-[state=active]:border-primary data-[state=active]:text-primary rounded-none border-0 bg-transparent"
           >
             {Icons.gameplays}
-            Gameplays
+            <h3>Gameplays</h3>
           </TabsTrigger>
         </TabsList>
 
@@ -89,18 +90,16 @@ export function GameDescription({ game }: GameDescriptionProps) {
           <div className="flex flex-col md:flex-row gap-8">
             {/* Controls Section - Left Side */}
             <div className="md:w-[400px]">
-              <h2 className="text-xl font-heading mb-4">Controls:</h2>
-              <div className="flex items-start gap-4">
-                <div className="w-[48px] h-[48px]">
-                  <img
-                    src="/mouse.png"
-                    alt="Mouse Controls"
-                    className="w-full h-full object-contain"
-                  />
+              <h3 className="text-xl font-heading mb-4">Controls:</h3>
+              <div className="flex items-start gap-6">
+                <div className="w-[40px] h-[40px] flex items-center justify-center">
+                  <div className="w-[24px] h-[24px] text-primary">
+                    {Icons.mouse}
+                  </div>
                 </div>
                 <div>
-                  <h3 className="font-heading mb-2">INTERACTION</h3>
-                  <ul className="space-y-1 text-muted-foreground">
+                  <div className="font-heading mb-2 text-primary">INTERACTION</div>
+                  <ul className="space-y-2 text-muted-foreground">
                     {game.controls.guide.movement.map((control, index) => (
                       <li key={index}>{control}</li>
                     ))}
@@ -110,8 +109,9 @@ export function GameDescription({ game }: GameDescriptionProps) {
             </div>
 
             {/* Description - Right Side */}
-            <div className="flex-1 space-y-4 text-muted-foreground">
+            <div className="flex-1 text-lg space-y-4 text-muted-foreground">
               <p>{game.description}</p>
+              <p>Sprunki Sprunkr is the original version of the game, featuring the same gameplay mechanics and character customization options as the original Incredibox game.</p>
             </div>
           </div>
         </TabsContent>

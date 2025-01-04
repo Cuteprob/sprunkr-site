@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://sprunkimegalovania.org/sitemap.xml
+Sitemap: https://sprunkr.size/sitemap.xml
 
 # Important pages
 Allow: /games

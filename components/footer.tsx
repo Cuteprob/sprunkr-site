@@ -12,17 +12,17 @@ export function Footer() {
         {/* 链接区域 */}
         <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
           <div className="space-y-4">
-            <h3 className="font-heading text-primary font-bold">SprunkiMegalovania.org</h3>
+            <h2 className="font-heading text-primary font-bold">Sprunkr.site</h2>
             <ul className="space-y-2">
               <li>
-                <Link href="/how-to-play" className="text-sm text-foreground hover:text-primary transition-colors">
-                  How to Play
+                <Link href="/" className="text-sm text-foreground hover:text-primary transition-colors">
+                  Home
                 </Link>
               </li>
               <li>
-                <Link href="/features" className="text-sm text-foreground hover:text-primary transition-colors">
-                  Features
-                </Link>
+                <a href="mailto:support@sprunkr.site" className="text-sm text-foreground hover:text-primary transition-colors">
+                  support@sprunkr.site
+                </a>
               </li>
             </ul>
           </div>
@@ -36,10 +36,16 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="mailto:support@sprunkimegalovania.org" className="text-sm text-foreground hover:text-primary transition-colors">
-                  support@sprunkimegalovania.org
-                </a>
+                <Link href="/how-to-play" className="text-sm text-foreground hover:text-primary transition-colors">
+                  How to Play
+                </Link>
               </li>
+              <li>
+                <Link href="/features" className="text-sm text-foreground hover:text-primary transition-colors">
+                  Features
+                </Link>
+              </li>
+              
             </ul>
           </div>
 
@@ -63,7 +69,7 @@ export function Footer() {
         {/* 版权信息 */}
         <div className="text-center">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Sprunki Megalovania. All rights reserved.
+            &copy; {new Date().getFullYear()} Sprunkr. All rights reserved.
           </p>
         </div>
       </div>
