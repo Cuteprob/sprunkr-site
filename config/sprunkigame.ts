@@ -688,16 +688,10 @@ export const games: Game[] = [
       
     ],
     metadata: {
-      title: "Sprunki Sprunkr 2.0 - Enhanced Music Creation Game | Create Amazing Beats",
-      description: "Play Sprunki Sprunkr 2.0, the enhanced version of the popular music creation game. Experience improved graphics, smoother animations, and better sound quality while creating your own music.",
+      title: "Sprunki Sprunkr 2.0 - Enhanced Music Creation Game Online",
+      description: "Play Sprunki Sprunkr 2.0, the enhanced version of the popular music creation game. Experience improved graphics, smoother animations, and better sound quality.",
       keywords: [
-        "sprunki sprunkr 2.0",
-        "music creation game",
-        "rhythm game",
-        "beat maker",
-        "music composition",
-        "interactive music",
-        "sound mixing game"
+        "sprunki sprunkr 2.0"
       ]
     },
     controls: {
@@ -777,8 +771,8 @@ export const games: Game[] = [
     
     ],
     metadata: {
-      title: "Spunkr 4 OC - Ultimate Music Creation Game | 41 Unique Characters",
-      description: "Play Spunkr 4 OC and create music with 41 unique characters, including hidden secrets. Experience new sounds, animations, and the return of Mr. Fun Computer in this expanded fan-made masterpiece.",
+      title: "Spunkr 4 OC - Incredible Music Creation Game Online",
+      description: "Play Spunkr 4 OC and create music with 41 unique characters, including hidden secrets. Experience new sounds in this expanded fan-made masterpiece.",
       keywords: [
         
       ]
