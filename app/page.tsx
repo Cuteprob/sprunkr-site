@@ -122,7 +122,7 @@ const games = [
     createdAt: "2024-1-3",
     description: "Sprunkr 4 OC version",
     image: "/sprunkr-4-oc.webp",
-    iframeUrl: "https://play.sprunkiretake.net/sprunkr-4-oc",
+    iframeUrl: "https://wowtbc.net/sprunkin/sprunki-restyle/index.html",
     rating: 5,
     categories: [GameCategory.SPRUNKI],
     metadata: {
