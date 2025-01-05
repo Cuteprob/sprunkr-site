@@ -765,7 +765,7 @@ export const games: Game[] = [
     createdAt: "2025-01-04",
     description: "Spunkr 4 OC takes music creation to new heights with an incredible roster of 41 unique characters, including exciting hidden secrets waiting to be discovered. This fan-made masterpiece expands the Sprunki universe with innovative sounds, captivating animations, and fresh mechanics that will keep players engaged for hours. The game features the return of the beloved Mr. Fun Computer, now with a completely reimagined performance style that adds a fresh dimension to your musical creations.\n\nDive into a world where each character brings their own musical personality to life, creating endless possibilities for unique compositions. Whether you're discovering secret characters, experimenting with new sound combinations, or crafting the perfect mix, Spunkr 4 OC provides an expansive playground for musical creativity.",
     image: "/sprunkr-4-oc.webp",
-    iframeUrl: "https://play.sprunkiretake.net/sprunkr-4-oc",
+    iframeUrl: "https://wowtbc.net/sprunkin/sprunki-restyle/index.html",
     rating: 4.8,
     categories: [
     
