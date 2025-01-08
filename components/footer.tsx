@@ -10,7 +10,7 @@ export function Footer() {
         
 
         {/* 链接区域 */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <h2 className="font-heading text-primary font-bold">Sprunkr.site</h2>
             <ul className="space-y-2">
@@ -50,6 +50,18 @@ export function Footer() {
           </div>
 
           <div className="space-y-4">
+            <h3 className="font-heading text-primary font-bold">Games</h3>
+            <ul className="space-y-2">
+              <li>
+                {/* 加外链 slot maker(slotmaker.app) */}
+                <a href="https://slotmaker.app" className="text-sm text-foreground hover:text-primary transition-colors">
+                  Slot Maker
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div className="space-y-4">
             <h3 className="font-heading text-primary font-bold">Legal</h3>
             <ul className="space-y-2">
               <li>
@@ -69,7 +81,7 @@ export function Footer() {
         {/* 版权信息 */}
         <div className="text-center">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Sprunkr. All rights reserved.
+            &copy; {new Date().getFullYear()} sprunkr.site. All rights reserved.
           </p>
         </div>
       </div>
