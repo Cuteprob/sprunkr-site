@@ -54,8 +54,8 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 {/* 加外链 slot maker(slotmaker.app) */}
-                <a href="https://slotmaker.app" className="text-sm text-foreground hover:text-primary transition-colors">
-                  Slot Maker
+                <a href="https://sprunksters.top/" className="text-sm text-foreground hover:text-primary transition-colors">
+                Sprunksters
                 </a>
               </li>
             </ul>
